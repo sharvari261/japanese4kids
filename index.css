@@ -1,0 +1,59 @@
+/* css for hiragana and katakana*/
+.chart{
+padding: 10px 0
+}
+img{
+width:70;
+height:70;
+}
+a:link {
+  text-decoration: none;
+  border:1px solid red; 
+}
+
+a:visited {
+  text-decoration: none;
+  border:1px solid red; 
+}
+
+a:hover {
+  text-decoration: underline;
+  border:1px solid red; 
+}
+
+a:active {
+  text-decoration: underline;
+  border:1px solid red; 
+
+}
+a:link, a:visited {
+  /*background-color: pink;*/
+  color: black;
+  padding: 12px 20px;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+}
+
+a:hover, a:active {
+  background-color: skyblue;
+}
+table{
+margin-left:60;
+empty-cells:show;
+}
+ /*th:empty, td:empty { background: gray; }*/
+ 
+ ::-webkit-scrollbar {
+    display: none;
+}
+
+.jr{
+text-align:center	
+}
+p.select{
+	font-size:50;
+	margin-left:60px;
+	margin-top:300px;
+	font-family:"Harrington";
+}
